@@ -48,7 +48,7 @@ namespace GBC_Backwards_Compatibility_Sorter
                 input = Console.ReadKey();
             }
             Console.WriteLine();
-            romSort(@"J:\Roms\roms", input.Key == ConsoleKey.Y);
+            romSort(currentPath, input.Key == ConsoleKey.Y);
             return 0;
         }
 
